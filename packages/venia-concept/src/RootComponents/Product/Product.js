@@ -9,7 +9,7 @@ import { Query } from 'react-apollo';
 import gql from 'graphql-tag';
 import { connect } from 'react-redux';
 
-import { addItemToCart } from 'src/actions';
+import { addItemToCart, toggleCart, getCartDetails } from 'src/actions';
 
 const productDetailQuery = gql`
     query productDetail($urlKey: String) {
@@ -76,8 +76,11 @@ class Product extends Component {
         })
     };
 
-    addToCart = (item, quantity) =>
-        this.props.addItemToCart({ item, quantity });
+    addToCart = async (item, quantity) => {
+        await this.props.addItemToCart({ item, quantity });
+        await this.props.getCartDetails({ forceRefresh: true });
+        this.props.toggleCart();
+    };
 
     render() {
         return (
@@ -108,6 +111,8 @@ class Product extends Component {
 export default connect(
     null,
     {
-        addItemToCart
+        addItemToCart,
+        getCartDetails,
+        toggleCart
     }
 )(Product);

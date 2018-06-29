@@ -7,7 +7,7 @@ export default async function getCart() {
     }
     const cartId = await getCartId();
 
-    const cart = await restRequest({
+    const cart = restRequest({
         method: 'GET',
         path: `guest-carts/${cartId}`
     });
