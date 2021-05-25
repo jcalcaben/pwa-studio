@@ -1,19 +1,7 @@
 module.exports = [
     {
-        target: 'peregrine/lib/Price/price.js',
-        type: 'class'
-    },
-    {
         target: 'peregrine/lib/List/list.js',
-        type: 'class',
-        overrides: {
-            items: {
-                required: true
-            },
-            render: {
-                required: true
-            }
-        }
+        type: 'function',
     },
     {
         target: 'peregrine/lib/hooks/useEventListener.js',
