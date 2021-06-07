@@ -15,6 +15,7 @@ let createFunctionDocs = ({ sourcePath, githubSource, childComponents = [] }) =>
             path.join(__dirname,'templates','handlebars','header.hbs'),
             path.join(__dirname,'templates','handlebars','defaultValue.hbs'),
             path.join(__dirname,'templates','handlebars','params-table.hbs'),
+            path.join(__dirname,'templates','handlebars','properties-table.hbs'),
         ],
     }
     return jsDocs.render(config).then(content => {
