@@ -1,5 +1,6 @@
 ---
 title: UPWARD
+adobeio: /guides/packages/upward/
 ---
 
 **UPWARD** is an acronym for Unified Progressive Web App Response Definition.
