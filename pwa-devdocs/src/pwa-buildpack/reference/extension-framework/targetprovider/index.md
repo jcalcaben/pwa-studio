@@ -1,5 +1,6 @@
 ---
 title: TargetProvider
+adobeio: /api/buildpack/buildbus/
 ---
 
 <!--
