@@ -1,5 +1,6 @@
 ---
 title: Price
+adobeio: /api/peregrine/components-and-utilities/
 ---
 
 <!--
