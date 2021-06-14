@@ -1,5 +1,6 @@
 ---
 title: Create a tag list extension
+adobeio: /tutorials/extensions/taglist
 ---
 
 A tag list is a group of tags associated with a product.

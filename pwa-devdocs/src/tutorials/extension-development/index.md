@@ -1,5 +1,6 @@
 ---
 title: Extension development
+adobeio: /tutorials/extensions/
 ---
 
 PWA Studio follows the Magento way of merging third-party code to build web functionality on a simple platform.

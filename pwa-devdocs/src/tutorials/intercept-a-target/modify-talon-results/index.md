@@ -1,5 +1,6 @@
 ---
 title: Modify talon results
+adobeio: /tutorials/targets/modify-talon-results/
 ---
 
 In core Magento development:
