@@ -1,6 +1,6 @@
 ---
 title: Magento Cloud deployment
-adobeio: /tutorials/production-deployment/magento-cloud/
+adobeio: /tutorials/production-deployment/adobe-commerce/
 ---
 
 [Magento Commerce Cloud][] is a managed, automated hosting platform for the Magento Commerce software.
