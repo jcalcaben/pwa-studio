@@ -4,6 +4,14 @@ import React from 'react';
 import { useStyle } from '../../classify';
 import defaultClasses from './mask.css';
 
+/**
+ * A component that masks content.
+ * 
+ * @param {Object} props 
+ * @param {callback} props.dismiss Callback function for the onClick() function to dismiss the mask
+ * @param {boolean} props.isActive Mask is active and visible if true
+ * @returns {React.Element} A React component that masks content
+ */
 const Mask = props => {
     const { dismiss, isActive } = props;
     const classes = useStyle(defaultClasses, props.classes);
